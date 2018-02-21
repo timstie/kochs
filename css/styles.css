@@ -1,0 +1,124 @@
+.logo {
+    width: 10%;
+    position: relative;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+iframe {
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-top: 30px;
+} 
+
+h1,
+p1,
+txtbks,
+txtbks2,
+.bg1,
+.bg2,
+.bg3,
+.bg4,
+    {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+    text-align: center;
+}
+
+
+.bg1,
+.bg2,
+.bg3,
+.bg4,
+.logobg {
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.bg1 {
+    background-image: url(../images/billede1.jpg);
+    min-height: 100%;
+    text-align: center;
+}
+
+.bg2 {
+    background-image: url(../images/billede3.jpg);
+    min-height: 900px;
+}
+
+.bg3 {
+    background-image: url(../images/billede5.jpg);
+    min-height: 900px;
+
+}
+
+.bg4 {
+    background-image: url(../images/billede4.jpg);
+    min-height: 900px;
+    align-content: center;
+
+}
+
+p1 {
+    display: block;
+    font-family: lato;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+
+.txtbks {
+    height: 180px;
+    background-color: #1b1d1f;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 310px;
+    padding-right: 300px;
+    padding-top: 30px;
+    opacity: 0.9;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+.txtbks2 {
+    height: 180px;
+    background-color: #1b1d1f;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 310px;
+    padding-right: 300px;
+    padding-top: 30px;
+    opacity: 0.9;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+}
+
+/* end logo */
+
+.logobg {
+    background-image: url(../images/billede4.jpg);
+
+    align-content: center;
+
+    text-align: center;
+
+}
+
+.logopart {
+
+    align-content: center;
+    display: block;
+    padding-left: 23%;
+    padding-bottom: 50%;
+    opacity: 0;
+
+}
+
+

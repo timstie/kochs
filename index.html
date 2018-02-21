@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kochs Webdoc</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+    <header>
+
+    </header>
+
+    <!-- webdok content -->
+    <div class="bg1">
+        <img src="images/logo.png" class="logo">
+
+        <iframe src="https://player.vimeo.com/video/256597537" width="90%" height="700" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+    </div>
+
+    <div class="bg2">
+        <p1 class="txtbks">As a Parent, you want what is best for your children, one of the best gifts you can give to your child is the gift of a proper education, so they can thrive in this world with an interconnected globalized market. We must inspire curiosity and for them to be globally aware. How can you best do that? </p1>
+    </div>
+
+    <div class="bg3">
+        <p1 class="txtbks2"> You can enroll your child in a school that encourages community and integration. At Kochs we do that. Your child will be enrolled in an international class with other kids of all kinds of nationalities. But at the same time your kid will be mixed with other Danish students, so they can learn of the local culture while still maintaining the international perspective. We teach all the children at the school to appreciate, communicate and interact with different cultures but also learning them more languages so when they are ready to go out in the real world they are a competent citizen of the world. </p1>
+    </div>
+
+
+    <div class="bg4">
+        <p1 class="txtbks2">At Kochs the older children teach the younger children and in return learns something on the way. This creates a strong community cross all different age groups as well preparing the older children for an adult life. At Kochs we don't limit children and their education </p1>
+    </div>
+
+    <div class="logobg">
+        <img src="images/endlogo.png" class="logopart">
+    </div>
+    <script>
+        var picEl = document.getElementsByClassName("logopart")[0];
+        var opacity = 0;
+        var body = document.body;
+        var html = document.documentElement;
+        var siteHeight = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+        var animState = 0;
+        var fadeInterval;
+
+
+
+        window.onscroll = function() {
+            if (window.pageYOffset > siteHeight - 1500 && animState === 0) {
+
+                fadeInterval = window.setInterval(fadeIn, 100);
+            }
+        }
+
+        function fadeIn() {
+
+            if (opacity < 100) {
+                opacity++;
+            } else if (animState === 0) {
+                animState = 1;
+
+                window.clearInterval(fadeInterval);
+            }
+            picEl.style.opacity = opacity / 10;
+        }
+    </script>
+
+</body> 
+</html>
